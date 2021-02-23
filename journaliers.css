@@ -1,0 +1,36 @@
+body{
+	background: url(image/mer.jpg);
+}
+#menu{
+	background: black;
+	margin-left: 200px;
+	border: 80px solid #000000;
+	margin: 10px 0px 10px;
+	margin-top: 0px;
+}
+#menu ul{
+	margin-left: 150px;
+	padding: 0;
+	line-height: 30px;
+}
+#menu li{
+	list-style: none;
+	float: left;
+	position: relative;
+	
+
+}
+#menu ul li a{
+	color: #000080;
+	text-decoration: none;
+	width: 220px;
+	height: 30px;
+	display: block;
+	text-align: center;
+	border:1px solid #000;
+	border-radius: 2px;
+	background-color: #7FFFD4;
+}
+#menu ul li a:hover{
+	background-color: yellow;
+}
